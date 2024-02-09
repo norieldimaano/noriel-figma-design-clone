@@ -30,12 +30,15 @@ body {
   margin-top: 0.5em;
   -webkit-text-stroke: 0.8px #fff;
 }
-#header svg {
+#header #header1 svg {
   fill: #F30404;
   height: 7.5vh;
   width: 7.5vw;
   margin-left: 2em;
   margin-right: -1.5em;
+  cursor: pointer;
+}
+#header #header1 h1 {
   cursor: pointer;
 }
 #header #header2 {
@@ -73,6 +76,7 @@ body {
   font-family: "Saira Condensed", sans-serif;
   z-index: 1;
   position: relative;
+  color: #BE4042;
 }
 
 #membership {
@@ -124,7 +128,7 @@ body {
   align-items: center;
 }
 #body2 #body-text {
-  margin-left: 10%;
+  margin-left: 16%;
 }
 #body2 #body-text123 {
   display: flex;
@@ -178,7 +182,7 @@ body {
   cursor: pointer;
 }
 #body2 img {
-  margin-left: 17%;
+  margin-left: 31%;
   width: 40vw;
 }
 #body2 svg {
@@ -187,6 +191,9 @@ body {
   width: 1.8%;
 }
 
-#any {
-  margin-bottom: 500%;
+#spacer {
+  width: 100%;
+  padding: 5% 0;
+  background: black;
+  margin-top: 10%;
 }/*# sourceMappingURL=style.css.map */
