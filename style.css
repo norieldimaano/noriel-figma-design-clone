@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #CEC4C4;
+}
+
+#header {
+  background-image: url(images/header\ photo.jpg);
+  background-size: cover;
+  max-width: 100vw;
+  height: 90vh;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+  font-family: "Saira Condensed", sans-serif;
+  z-index: 0;
+  position: relative;
+}
+#header #header-body {
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#header #header1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0.5em;
+  -webkit-text-stroke: 0.8px #fff;
+}
+#header svg {
+  fill: #F30404;
+  height: 7.5vh;
+  width: 7.5vw;
+  margin-left: 2em;
+  margin-right: -1.5em;
+  cursor: pointer;
+}
+#header #header2 {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-top: 0.5em;
+  -webkit-text-stroke: 0.8px black;
+}
+#header .header2 {
+  padding: 0 0.7em;
+}
+#header #tag-line {
+  margin-left: 1.08em;
+  font-size: 4.2vw;
+  line-height: 2em;
+  -webkit-text-stroke: 1.8px #fff;
+}
+#header span {
+  color: #BE4042;
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: -10.7% auto 0 auto;
+  padding: 2em;
+  max-width: 40vw;
+  height: 12.5vh;
+  background-color: #E8E7E8;
+  font-family: "Saira Condensed", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+
+#membership {
+  font-size: 0.5vw;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8em;
+}
+#membership svg {
+  height: 6.5vh;
+  width: 6.5vw;
+  cursor: pointer;
+}
+
+#weights {
+  font-size: 0.5vw;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8em;
+}
+#weights svg {
+  height: 6.5vh;
+  width: 6.5vw;
+  cursor: pointer;
+}
+
+#meal-plan {
+  font-size: 0.5vw;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8em;
+}
+#meal-plan svg {
+  height: 6.5vh;
+  width: 6.5vw;
+  cursor: pointer;
+}
+
+#body2 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#body2 #body-text {
+  margin-left: 10%;
+}
+#body2 #body-text123 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#body2 #body-text1 {
+  font-size: 1.5vw;
+  line-height: 2em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -10%;
+  width: 25vw;
+  font-family: "Saira Condensed", sans-serif;
+}
+#body2 #body-text2 {
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: -8%;
+  width: 25vw;
+  font-family: "Inter", sans-serif;
+}
+#body2 #body-text2 p {
+  font-size: 1.6vw;
+  font-weight: 300;
+  margin-bottom: -3%;
+}
+#body2 #body-text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Saira Condensed", sans-serif;
+  margin-top: 15%;
+}
+#body2 #body-text3 button {
+  font-size: 1.6vw;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  padding: 0.25em 1em;
+  border: none;
+  background-color: #BE4042;
+  color: #fff;
+  cursor: pointer;
+}
+#body2 img {
+  margin-left: 17%;
+  width: 40vw;
+}
+#body2 svg {
+  margin-right: 3%;
+  height: 1.8%;
+  width: 1.8%;
+}
+
+#any {
+  margin-bottom: 500%;
+}/*# sourceMappingURL=style.css.map */
