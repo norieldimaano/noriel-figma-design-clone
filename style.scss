@@ -71,44 +71,44 @@ body{
     z-index: 1;
     position: relative;
     color: #BE4042;
-}
-#membership{
-    font-size: .5vw;
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 8em;
-    svg{
-        height: 6.5vh;
-        width: 6.5vw;
-        cursor: pointer;
+    #membership{
+        font-size: .5vw;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 8em;
+        svg{
+            height: 6.5vh;
+            width: 6.5vw;
+            cursor: pointer;
+        }
     }
-}
-#weights{
-    font-size: .5vw;
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 8em;
-    svg{
-        height: 6.5vh;
-        width: 6.5vw;
-        cursor: pointer;
+    #weights{
+        font-size: .5vw;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 8em;
+        svg{
+            height: 6.5vh;
+            width: 6.5vw;
+            cursor: pointer;
+        }
     }
-}
-#meal-plan{
-    font-size: .5vw;
-    margin-top: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 8em;
-    svg{
-        height: 6.5vh;
-        width: 6.5vw;
-        cursor: pointer;
+    #meal-plan{
+        font-size: .5vw;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 8em;
+        svg{
+            height: 6.5vh;
+            width: 6.5vw;
+            cursor: pointer;
+        }
     }
 }
 
@@ -177,9 +177,68 @@ body{
     }
 } 
 
+#left-footer{
+    font-family: "Saira Condensed", sans-serif;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 10%;
+    #join{
+        font-size: 1.3vw;
+    } 
+    #email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -2%;
+    svg{
+        margin-right: .25em;
+    } h2{
+        font-size: 1.2vw;
+    }
+} #number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -2.8%;
+    margin-left: .1%;
+    svg{
+        margin-right: .5em;
+    } h2{
+        font-size: 1.2vw;
+    }
+} 
+}
+
+#right-footer{
+    #social{
+        svg{
+            z-index: 0;
+            position: relative;
+            top: -8em;
+            left: 87%;
+            padding: .40em;
+        }
+    } #terms{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+        left: 50px;
+        padding-right: 2%;
+        font-weight: 200;
+        margin-top: -2.5%;
+        #privacy{
+            margin-right: 1%;
+        }
+    }
+}
+
 #spacer{
     width: 100%;
-    padding: 5% 0;
+    height: 35vh;
     background: black;
-    margin-top: 10%;
+    margin-top: -18%;
+    z-index: -1;
+    position:relative;
 }

@@ -78,8 +78,7 @@ body {
   position: relative;
   color: #BE4042;
 }
-
-#membership {
+#body #membership {
   font-size: 0.5vw;
   margin-top: 2em;
   display: flex;
@@ -87,13 +86,12 @@ body {
   align-items: center;
   padding: 0 8em;
 }
-#membership svg {
+#body #membership svg {
   height: 6.5vh;
   width: 6.5vw;
   cursor: pointer;
 }
-
-#weights {
+#body #weights {
   font-size: 0.5vw;
   margin-top: 2em;
   display: flex;
@@ -101,13 +99,12 @@ body {
   align-items: center;
   padding: 0 8em;
 }
-#weights svg {
+#body #weights svg {
   height: 6.5vh;
   width: 6.5vw;
   cursor: pointer;
 }
-
-#meal-plan {
+#body #meal-plan {
   font-size: 0.5vw;
   margin-top: 2em;
   display: flex;
@@ -115,7 +112,7 @@ body {
   align-items: center;
   padding: 0 8em;
 }
-#meal-plan svg {
+#body #meal-plan svg {
   height: 6.5vh;
   width: 6.5vw;
   cursor: pointer;
@@ -191,9 +188,68 @@ body {
   width: 1.8%;
 }
 
+#left-footer {
+  font-family: "Saira Condensed", sans-serif;
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#left-footer #join {
+  font-size: 1.3vw;
+}
+#left-footer #email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -2%;
+}
+#left-footer #email svg {
+  margin-right: 0.25em;
+}
+#left-footer #email h2 {
+  font-size: 1.2vw;
+}
+#left-footer #number {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -2.8%;
+  margin-left: 0.1%;
+}
+#left-footer #number svg {
+  margin-right: 0.5em;
+}
+#left-footer #number h2 {
+  font-size: 1.2vw;
+}
+
+#right-footer #social svg {
+  z-index: 0;
+  position: relative;
+  top: -8em;
+  left: 87%;
+  padding: 0.4em;
+}
+#right-footer #terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  left: 50px;
+  padding-right: 2%;
+  font-weight: 200;
+  margin-top: -2.5%;
+}
+#right-footer #terms #privacy {
+  margin-right: 1%;
+}
+
 #spacer {
   width: 100%;
-  padding: 5% 0;
+  height: 35vh;
   background: black;
-  margin-top: 10%;
+  margin-top: -18%;
+  z-index: -1;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
