@@ -42,13 +42,11 @@ body {
   cursor: pointer;
 }
 #header #header2 {
-  color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
   margin-top: 0.5em;
-  -webkit-text-stroke: 0.8px black;
 }
 #header .header2 {
   padding: 0 0.7em;
@@ -61,6 +59,11 @@ body {
 }
 #header span {
   color: #BE4042;
+}
+#header a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-text-stroke: 0.8px black;
 }
 
 #body {
